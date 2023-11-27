@@ -1,1 +1,83 @@
+.lesson-four-task-one:hover {
+  color: red;
+  background: yellow;
+}
 
+.title:hover {
+  background: green;
+}
+
+.link:visited {
+  color: yellow;
+}
+
+.link:link {
+  color: red;
+}
+
+.btn:active {
+  background-color: blue;
+}
+
+.btn:focus {
+  background: orange;
+  color: orange;
+}
+
+#target:target ~ a {
+  color: white;
+  background: green;
+}
+#checkbox:checked ~ #target {
+  color: white;
+  background: blue;
+}
+
+p:lang(uk) {
+  color: blue;
+}
+
+input[required]:enabled {
+  color: red;
+  background: yellow;
+}
+
+input[disabled]:disabled {
+  background: yellow;
+}
+
+input:read-write {
+  background: yellow;
+}
+
+input[readonly]:read-only {
+  background: yellow;
+}
+
+input[required]:valid {
+  background: green;
+}
+
+input:invalid {
+  background: red;
+}
+
+input:out-of-range {
+  color: red;
+}
+
+input:in-range {
+  color: green;
+}
+
+input:placeholder-shown {
+  background: red;
+}
+
+button:focus-within {
+  background: yellow;
+}
+
+input:invalid {
+  background: red;
+}
