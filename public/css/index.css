@@ -3,81 +3,86 @@
   background: yellow;
 }
 
-.title:hover {
+.lesson-four-task-two a:hover + h1 {
   background: green;
 }
 
-.link:visited {
+.lesson-four-task-three .link:visited {
   color: yellow;
 }
 
-.link:link {
+.lesson-four-task-four a:link {
   color: red;
 }
 
-.btn:active {
-  background-color: blue;
+.lesson-four-task-five .btn:active {
+  background: blue;
 }
 
-.btn:focus {
+.lesson-four-task-six .btn:focus {
   background: orange;
   color: orange;
 }
 
-#target:target ~ a {
+.lesson-four-task-seven #target:target {
   color: white;
   background: green;
 }
-#checkbox:checked ~ #target {
+
+.lesson-four-task-eight #checkbox:checked ~ #target {
   color: white;
   background: blue;
 }
 
-p:lang(uk) {
+.lesson-four-task-nine p:lang(uk) {
   color: blue;
 }
 
-input[required]:enabled {
+.lesson-four-task-ten input:enabled:focus {
   color: red;
   background: yellow;
 }
 
-input[disabled]:disabled {
+.lesson-four-task-eleven input:disabled {
   background: yellow;
 }
 
-input:read-write {
+.lesson-four-task-twelve input:read-write {
   background: yellow;
 }
 
-input[readonly]:read-only {
+.lesson-four-task-thirteen input[readonly]:read-only {
   background: yellow;
 }
 
-input[required]:valid {
+.lesson-four-task-fourteen input:valid:focus-within {
   background: green;
 }
 
-input:invalid {
+.lesson-four-task-fourteen input:invalid:focus-within {
   background: red;
 }
 
-input:out-of-range {
+.lesson-four-task-fifteen textarea[optional]:optional {
+  background: red;
+}
+
+.lesson-four-task-sixteen input:out-of-range {
   color: red;
 }
 
-input:in-range {
+.lesson-four-task-seventeen input:in-range {
   color: green;
 }
 
-input:placeholder-shown {
+.lesson-four-task-eighteen input:placeholder-shown {
   background: red;
 }
 
-button:focus-within {
+.lesson-four-task-nineteen button:focus-within {
   background: yellow;
 }
 
-input:invalid {
+.lesson-four-task-twenty input:invalid:focus {
   background: red;
 }
